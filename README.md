@@ -15,4 +15,4 @@ Implementation comes with the baggage of strictly being tied to the implementing
 
 ## Patterns
 
-1. [Strategy Pattern](./01.%20Strategy%20Pattern/README.md)
+1. [Strategy Pattern](./01.%20Strategy%20Pattern/)
