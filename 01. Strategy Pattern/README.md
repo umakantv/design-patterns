@@ -58,3 +58,19 @@ const animal = getAnimal();
 animal.makeSound();
 
 ```
+
+It is now much easier to add multiple behaviors in the "family of algorithms".  
+
+
+## Typescript Learnings
+
+We need to use the following compiler option to compile Abstract Duck Class to avoid error without initializing.  
+[Refer](https://stackoverflow.com/questions/49699067/property-has-no-initializer-and-is-not-definitely-assigned-in-the-construc)
+
+```json
+    "compilerOptions": {
+        "strictPropertyInitialization": false,
+        ...
+    }
+```
+
