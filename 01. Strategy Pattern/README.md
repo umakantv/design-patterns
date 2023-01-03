@@ -11,7 +11,9 @@ Strategy lets the algorithmm vary independently from the client that use it.
 abstract class Animal {}
 
 class Dog extends Animal {
-    bark(): void
+    bark(): void {
+        console.log('Bhaw')
+    }
 }
 
 const dog = new Dog();
