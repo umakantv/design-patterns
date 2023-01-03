@@ -8,7 +8,7 @@ For example, if we have to make a decision, we should encapsulate it so that any
 
 ### Favor composition over inheritance
 Instead of hiding `flying` and `quacking` logic in each type of `Duck` class, we extract them out for reuse and composition.  
-Any class can now included these behaviors to reuse the code.  
+Any class can now included these behaviors to reuse the code. It is also easier to add more behaviors.  
 
 ### Program to interface, not implementations
 Implementation comes with the baggage of strictly being tied to the implementing class. With interface, we can change the behiour at run time.
