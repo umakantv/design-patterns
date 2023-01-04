@@ -20,4 +20,4 @@ Loosely couple designs allow up to build flexible OO systems that can handle cha
 ## Patterns
 
 1. [Strategy Pattern](./01.%20Strategy%20Pattern/)
-2. [Observer Pattern](./02.%Observer%20Pattern/)
+2. [Observer Pattern](./02.%20Observer%20Pattern/)
