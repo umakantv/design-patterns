@@ -6,11 +6,8 @@ Decorators provide a flexible alternative to subclassing for extending functiona
 
 Decorators need to implement the same type/interface as the `Component` does, as it has to stand in place of the component itself.  
 
-### Caveats
+Decorators can add new methods or extend the existing methods, however, new behavior is typically added by doing computation before or after an existing method in the component.  
 
-Decorators can 
-
-If the code is dependent on the concrete types, then it is not advisable to use decorators.  
 
 ```ts
 abstract class Component {
@@ -65,4 +62,8 @@ class ConcreteDecoratorB extends Decorator {
 
 ```
 
-Decorators can add new methods or extend the existing methods, however, new behavior is typically added by doing computation before or after an existing method in the component.  
+### Caveats
+
+Decorators can result in many small objects in our design, and overuse can be complex.
+
+If the code is dependent on the concrete types, then it is not advisable to use decorators.  
