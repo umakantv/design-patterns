@@ -17,7 +17,18 @@ Implementation comes with the baggage of strictly being tied to the implementing
 
 Loosely couple designs allow up to build flexible OO systems that can handle changes because they minimize the interdependency between objects.
 
+### Open-Closed Priciple
+
+Classes should be open for extension, but closed for modification.  
+
+We should try to design code in such a way that any further changes should be avoided in the existing classes.  
+Whenever we need to make changes, we should try to do it via extending the existing code. For example, if we need to add more `flying` behaviors, or add more observers, we don't have to change the existing classes.  
+Decorator Pattern also takes care of this very well.  
+
+> We should not apply Open-Closed Principle in areas of code that needs to be extended. Applying the Open-Closed Priniciple EVERYWHERE is wasterful and unnecessary, and can lead to complex, hard-to-understand code.
+
 ## Patterns
 
 1. [Strategy Pattern](./01.%20Strategy%20Pattern/)
 2. [Observer Pattern](./02.%20Observer%20Pattern/)
+2. [Decorator Pattern](./03.%20Decorator%20Pattern/)
