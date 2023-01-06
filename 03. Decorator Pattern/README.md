@@ -9,6 +9,9 @@ Decorators need to implement the same type/interface as the `Component` does, as
 Decorators can add new methods or extend the existing methods, however, new behavior is typically added by doing computation before or after an existing method in the component.  
 
 
+![interface-diagram](interface-diagram.svg)
+<!-- 
+
 ```ts
 abstract class Component {
 
@@ -60,7 +63,7 @@ class ConcreteDecoratorB extends Decorator {
     // other methods
 }
 
-```
+``` -->
 
 ### Caveats
 
