@@ -1,5 +1,21 @@
 # Design Patterns
 
+- [Design Patterns](#design-patterns)
+  - [Patterns](#patterns)
+  - [Principles](#principles)
+    - [Encapsulate what varies](#encapsulate-what-varies)
+    - [Favor composition over inheritance](#favor-composition-over-inheritance)
+    - [Program to interface, not implementations](#program-to-interface-not-implementations)
+    - [Loosely coupled designs between objects](#loosely-coupled-designs-between-objects)
+    - [Open-Closed Priciple](#open-closed-priciple)
+
+
+## Patterns
+
+1. [Strategy Pattern](./01.%20Strategy%20Pattern/)
+2. [Observer Pattern](./02.%20Observer%20Pattern/)
+3. [Decorator Pattern](./03.%20Decorator%20Pattern/)
+
 ## Principles
 
 ### Encapsulate what varies
@@ -13,9 +29,9 @@ Any class can now included these behaviors to reuse the code. It is also easier 
 ### Program to interface, not implementations
 Implementation comes with the baggage of strictly being tied to the implementing class. With interface, we can change the behiour at run time.
 
-### Strive for loosely coupled designs between objects that interact
+### Loosely coupled designs between objects
 
-Loosely couple designs allow up to build flexible OO systems that can handle changes because they minimize the interdependency between objects.
+Loosely couple designs allow us to build flexible OO systems that can handle changes because they minimize the interdependency between objects.
 
 ### Open-Closed Priciple
 
@@ -26,9 +42,3 @@ Whenever we need to make changes, we should try to do it via extending the exist
 Decorator Pattern also takes care of this very well.  
 
 > We should not apply Open-Closed Principle in areas of code that needs to be extended. Applying the Open-Closed Priniciple EVERYWHERE is wasterful and unnecessary, and can lead to complex, hard-to-understand code.
-
-## Patterns
-
-1. [Strategy Pattern](./01.%20Strategy%20Pattern/)
-2. [Observer Pattern](./02.%20Observer%20Pattern/)
-2. [Decorator Pattern](./03.%20Decorator%20Pattern/)
