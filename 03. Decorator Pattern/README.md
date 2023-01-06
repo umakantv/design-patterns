@@ -10,7 +10,7 @@ Decorators can add new methods or extend the existing methods, however, new beha
 
 
 ![interface-diagram](interface-diagram.svg)
-<!-- 
+
 
 ```ts
 abstract class Component {
@@ -63,7 +63,7 @@ class ConcreteDecoratorB extends Decorator {
     // other methods
 }
 
-``` -->
+```
 
 ### Caveats
 
