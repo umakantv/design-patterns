@@ -8,6 +8,7 @@
     - [Program to interface, not implementations](#program-to-interface-not-implementations)
     - [Loosely coupled designs between objects](#loosely-coupled-designs-between-objects)
     - [Open-Closed Priciple](#open-closed-priciple)
+    - [Dependency Inversion Principle](#dependency-inversion-principle)
 
 
 ## Patterns
@@ -15,6 +16,7 @@
 1. [Strategy Pattern](./01.%20Strategy%20Pattern/)
 2. [Observer Pattern](./02.%20Observer%20Pattern/)
 3. [Decorator Pattern](./03.%20Decorator%20Pattern/)
+4. [Factory Pattern](./04.%20Factory%20Pattern/)
 
 ## Principles
 
@@ -42,3 +44,12 @@ Whenever we need to make changes, we should try to do it via extending the exist
 Decorator Pattern also takes care of this very well.  
 
 > We should not apply Open-Closed Principle in areas of code that needs to be extended. Applying the Open-Closed Priniciple EVERYWHERE is wasterful and unnecessary, and can lead to complex, hard-to-understand code.
+
+### Dependency Inversion Principle
+
+Depend upon abstractions. Do not depend upon concrete classes.  
+
+*High-level* components should not depend upon *low-level* components, rather they should both depend on *abstractions*.  
+
+When we depend upon concrete classes, our code is bound to change when the behavior of concrete classes changes, which is more often than changes to abstractions. With abstractions, we are less likely to dsiturb the dependent classes.  
+
