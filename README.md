@@ -9,6 +9,7 @@
     - [Loosely coupled designs between objects](#loosely-coupled-designs-between-objects)
     - [Open-Closed Priciple](#open-closed-priciple)
     - [Dependency Inversion Principle](#dependency-inversion-principle)
+  - [Diagrams](#diagrams)
 
 
 ## Patterns
@@ -53,3 +54,6 @@ Depend upon abstractions. Do not depend upon concrete classes.
 
 When we depend upon concrete classes, our code is bound to change when the behavior of concrete classes changes, which is more often than changes to abstractions. With abstractions, we are less likely to dsiturb the dependent classes.  
 
+## Diagrams
+
+https://excalidraw.com/#json=Jl0Toa-2iiMD01u5eYD2y,Sle4x_IF4LL8loodymo1aw
