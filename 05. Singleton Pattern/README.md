@@ -43,3 +43,17 @@ class Singleton {
 }
 
 ```
+
+## Lazy Instantiation
+
+```ts
+
+class Singleton {
+
+    private static uniqueInstance = new Singleton();
+
+    // ...
+}
+
+
+```
