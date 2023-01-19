@@ -1,4 +1,4 @@
-import { ChocolateBoiler } from "./Boiler";
+import { ChocolateBoiler } from "./ChocolateBoiler";
 
 
 function main() {
