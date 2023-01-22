@@ -18,6 +18,7 @@
 2. [Observer Pattern](./02.%20Observer%20Pattern/)
 3. [Decorator Pattern](./03.%20Decorator%20Pattern/)
 4. [Factory Pattern](./04.%20Factory%20Pattern/)
+5. [Singleton Pattern](./05.%20Singleton%20Pattern/)
 
 ## Principles
 
