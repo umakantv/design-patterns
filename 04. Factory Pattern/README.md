@@ -17,3 +17,13 @@ Simple Factory is a class that encapsulates creation of concrete classes.
 ### Pizza-Factory Class Diagram
 
 ![](pizza-factory-interface-diagram.svg)
+
+
+<script src="https://utteranc.es/client.js"
+  repo="umakantv/design-patterns"
+  issue-term="pathname"
+  label="Comment"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async>
+</script>
