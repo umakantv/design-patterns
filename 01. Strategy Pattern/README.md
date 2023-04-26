@@ -76,3 +76,12 @@ We need to use the following compiler option to compile Abstract Duck Class to a
     }
 ```
 
+
+<script src="https://utteranc.es/client.js"
+  repo="umakantv/design-patterns"
+  issue-term="pathname"
+  label="Comment"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async>
+</script>

@@ -14,3 +14,11 @@ It enables us to decouple the operation being performed from the invoker and the
 
 
 
+<script src="https://utteranc.es/client.js"
+  repo="umakantv/design-patterns"
+  issue-term="pathname"
+  label="Comment"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async>
+</script>

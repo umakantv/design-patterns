@@ -59,3 +59,12 @@ When we depend upon concrete classes, our code is bound to change when the behav
 ## Diagrams
 
 https://excalidraw.com/#json=Jl0Toa-2iiMD01u5eYD2y,Sle4x_IF4LL8loodymo1aw
+
+<script src="https://utteranc.es/client.js"
+  repo="umakantv/design-patterns"
+  issue-term="pathname"
+  label="Comment"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async>
+</script>

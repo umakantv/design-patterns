@@ -70,3 +70,13 @@ class ConcreteDecoratorB extends Decorator {
 Decorators can result in many small objects in our design, and overuse can be complex.
 
 If the code is dependent on the concrete types, then it is not advisable to use decorators.  
+
+
+<script src="https://utteranc.es/client.js"
+  repo="umakantv/design-patterns"
+  issue-term="pathname"
+  label="Comment"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async>
+</script>
